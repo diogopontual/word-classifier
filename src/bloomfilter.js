@@ -21,16 +21,12 @@ class BloomFilter {
         this.bitset = new BitSet(size);
     }
     add(value) {
-        for (let key in hashs) {
-            let h = hashs[key](value);
-            this.bitset.set(h % this.size, true);
-        }
+        let h = hashs.djb2(value);
+        this.bitset.set(h % this.size, true);
     }
     test(value) {
-        for (let key in hashs) {
-            let h = hashs[key](value);
-            return this.bitset.get(h % this.size);
-        }
+        let h = hashs.djb2(value);
+        return this.bitset.get(h % this.size);
     }
     hash(value) {
         var hash = 0, i, chr, len;
@@ -47,17 +43,17 @@ class BloomFilter {
     };
     stringify() {
         let input = this.toString();
-        let word = '';
-        let r = '';
+        let word = '', arr = [];
         for (let i = 0; i < input.length; i++) {
             word += input[i];
-            if (word.length == 32) {
-                r += String.fromCharCode(Number.parseInt(word, 2));
+            if (word.length == 8) {
+                let l = Number.parseInt(word, 2);
+                arr.push(l);
                 word = '';
             }
-
         }
-        return r;
+        let b = Buffer.from(arr);
+        return b.toString('binary');
     }
 }
 module.exports = BloomFilter;

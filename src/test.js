@@ -182,9 +182,9 @@ const stripSuffix = function (w) {
     }
     return w;
 }
-var bloom = new BloomFilter(850000);
+var bloom = new BloomFilter(8 * 140000);
 const fs = require('fs');
-fs.readFile('../output.txt', "ascii", function (err, data) {
+fs.readFile('../optimized.txt', "utf8", function (err, data) {
     if (err) throw err;
     let word = '';
     for (let i = 0; i < data.length; i++) {
@@ -196,12 +196,19 @@ fs.readFile('../output.txt', "ascii", function (err, data) {
         }
         word += l;
     }
-    console.log(bloom.test('yes'));
-    console.log(bloom.test('diogo'));
-    console.log(bloom.test('trelele'));
-    console.log(bloom.test('babaca'));
-    console.log(bloom.test('brasileiro'));
-    console.log(bloom.test('panaca'));
-    // fs.writeFileSync('./output1.txt',bloom.toString());
-    fs.writeFileSync('./output1.txt',bloom.stringify());
+    // console.log(bloom.test('yes'));
+    // console.log(bloom.test('diogo'));
+    // console.log(bloom.test('trelele'));
+    // console.log(bloom.test('babaca'));
+    // console.log(bloom.test('brasileiro'));
+    // console.log(bloom.test('panaca'));
+    // console.log(bloom.test('bloom'));
+    // console.log(bloom.test('abestado'));
+    // console.log(bloom.test('tititi'));
+    // console.log(bloom.test('tralala'));
+    // console.log(bloom.test('obvio'));
+    // console.log(bloom.test('otario'));
+    // console.log(bloom.test('blood'));
+    fs.writeFileSync('./data.txt',bloom.toString(), 'ascii');
+    fs.writeFileSync('./data.dat',bloom.stringify(), 'binary');
 });
