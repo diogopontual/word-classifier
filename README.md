@@ -18,5 +18,7 @@ My late attempt to solve this challenge: https://github.com/hola/challenge_word_
 * The word is a lonely apostrophe;
 * The word has one of the following entries: ['jq', 'jx', 'jz', 'qj', 'qx', 'qy', 'qz', 'q\'', 'vj', 'vq', 'xj', 'zx', '\'j', '\'q', '\'x', '\'z'];
 
+## Logbook
 
+### Day 0
 
