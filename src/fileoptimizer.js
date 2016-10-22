@@ -17,7 +17,7 @@ arr.forEach(v => {
         else if (consonants.indexOf(v[1]) >= 0) f += 'c';
     }
     if (/ccccc/.test(f) || /vvvvv/.test(f)) return;
-    v = v.replace(/'s$/, '').replace(/^ir/,'').replace(/^il/,'').replace(/^dis/,'').replace(/^mid/,'').replace(/^mis/,'').replace(/^anti/,'').replace(/^in/,'').replace(/^in/, '').replace(/^un/, '').replace(/sses$/,'ss').replace(/ies$/,'i').replace(/ss$/,/s/).replace(/s$/,'').replace(/ing$/, '');
+    v = v.replace(/'s$/, '').replace(/^ir/, '').replace(/^il/, '').replace(/^dis/, '').replace(/^mid/, '').replace(/^mis/, '').replace(/^anti/, '').replace(/^in/, '').replace(/^in/, '').replace(/^un/, '').replace(/sses$/, 'ss').replace(/ies$/, 'i').replace(/ss$/, /s/).replace(/s$/, '').replace(/ing$/, '').replace(/ly$/, '').replace(/ness$/, '').replace(/ed$/,'e').replace(/ment$/,'').replace(/cal$/,'c').replace(/ist$/,'i').replace(/ability$/,'').replace(/ese|esi$/,'e').replace(/ism$/,'');
     if (v.length < 2) return;
     if (v.length > 14) return;
     obj[v] = true;
