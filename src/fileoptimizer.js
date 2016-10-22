@@ -14,8 +14,6 @@ let arr = data.split('\n');
 let obj = {};
 arr.forEach(v => {
     v = v.toLowerCase();
-    let f = '';
-
     v = v.replace(/'s$/, '').replace(/^ir/, '').replace(/^il/, '').replace(/^dis/, '').replace(/^mid/, '').replace(/^mis/, '').replace(/^anti/, '').replace(/^in/, '').replace(/^un/, '')
     v = stemmer(v);
     if (v.length < 3) return;
