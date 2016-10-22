@@ -2,84 +2,30 @@ const fs = require('fs');
 const readline = require('readline');
 let fileName = '../words.txt';
 let outputFileName = '../optimizedWords.txt';
+const chars = 'abcdefghijklmnopqrstuvwxyz';
+const consonants = 'bcdfghjklmnpqrstvwxyz';
+const vowels = 'aeiou';
 let consumed = 0, produced = 0;
-function filter(input) {
-    input = input.filter((v, i) => {
-        return v != null;
-    });
-    console.log(`input length: ${input.length}`);
-    return input;
-}
 data = fs.readFileSync(fileName, 'utf8');
-let input = data.split('\n');
-let inputObj = {};
-console.log(`input length: ${input.length}`);
-console.log('to lowercase');
-input = input.map((v, i) => {
-    let c = v.toLowerCase();
-    if (!inputObj[c]) {
-        inputObj[c] = true;
-        return c;
+let arr = data.split('\n');
+let obj = {};
+arr.forEach(v => {
+    v = v.toLowerCase();
+    let f = '';
+    for (let i = 0; i < v.length; i++) {
+        if (vowels.indexOf(v[i]) >= 0) f += 'v';
+        else if (consonants.indexOf(v[1]) >= 0) f += 'c';
     }
-    return null;
+    if (/ccccc/.test(f) || /vvvvv/.test(f)) return;
+    v = v.replace(/'s$/, '').replace(/^ir/,'').replace(/^il/,'').replace(/^dis/,'').replace(/^mid/,'').replace(/^mis/,'').replace(/^anti/,'').replace(/^in/,'').replace(/^in/, '').replace(/^un/, '').replace(/sses$/,'ss').replace(/ies$/,'i').replace(/ss$/,/s/).replace(/s$/,'').replace(/ing$/, '');
+    if (v.length < 2) return;
+    if (v.length > 14) return;
+    obj[v] = true;
 });
-input = filter(input);
-console.log('possessive removals');
-//Possessive:
-let possessiveRegex = /'s$/, t = 0, t1 = 0;
-input = input.map((p, c) => {
-    if (possessiveRegex.test(p)) {
-        t++;
-        let n = p.replace(possessiveRegex, '');
-        // if (!inputObj[n]) {
-        //     t1++;
-        //     return p;
-        // }
-        delete inputObj.v;
-        return null;
-    }
-    return p;
-}, 0);
-console.log(`possessive(\'s)  ocurrencies: ${t}`)
-console.log(`possessive(\'s)  ocurrencies without correspondent: ${t1}`)
-input = filter(input);
-//Sufix
-// console.log('sufix stripping');
-// const porterstem = require('./porterstemmer');
-// t = 0; t1 = 0;
-// input = input.map((p, c) => {
-//     let n = porterstem(p);
-//     if (p != n) {
-//         t++;
-//         // if (!inputObj[n]) {
-//         //     t1++;
-//         //     return p;
-//         // }
-//         delete inputObj.v;
-//         return null;
-//     }
-//     return p;
-// }, 0);
-// console.log(`stemmer  ocurrencies: ${t}`)
-// console.log(`stemmer  ocurrencies without correspondent: ${t1}`)
-// input = filter(input);
-// console.log('opposite prefix');
-// let oppositeRegex = /^dis|un|in|im|ir|il.*/;
-// t = 0, t1 = 0;
-// input = input.map((p, c) => {
-//     if (oppositeRegex.test(p)) {
-//         t++;
-//         let n = p.replace(oppositeRegex, '');
-//         // if (!inputObj[n]) {
-//         //     t1++;
-//         //     return p;
-//         // }
-//         delete inputObj.v;
-//         return null;
-//     }
-//     return p;
-// }, 0);
-// console.log(`opposite  ocurrencies: ${t}`)
-// console.log(`opposite  ocurrencies without correspondent: ${t1}`)
-// input = filter(input);
-fs.writeFileSync('../optimized.txt',input.join('\n'));
+let optimized = []
+for (key in obj) {
+    optimized.push(key);
+}
+console.log('input: ' + arr.length);
+console.log('output: ' + optimized.length);
+fs.writeFileSync('../optimized.txt', optimized.join('\n'));
