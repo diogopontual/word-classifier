@@ -12,13 +12,13 @@ let consumed = 0, produced = 0;
 data = fs.readFileSync(fileName, 'utf8');
 let arr = data.split('\n');
 let obj = {};
-arr.forEach(v => {
-    v = v.toLowerCase();
-    v = v.replace(/'s$/, '').replace(/^ir/, '').replace(/^il/, '').replace(/^dis/, '').replace(/^mid/, '').replace(/^mis/, '').replace(/^anti/, '').replace(/^in/, '').replace(/^un/, '')
-    v = stemmer(v);
-    if (v.length < 3) return;
-    if (v.length > 14) return;
-    obj[v] = true;
+arr.forEach(w => {
+    w = w.toLowerCase();
+    w = w.replace(/'s$/, '').replace(/^ir/, '').replace(/^il/, '').replace(/^dis/, '').replace(/^mid/, '').replace(/^mis/, '').replace(/^anti/, '').replace(/^in/, '').replace(/^un/, '')
+    w = stemmer(w);
+    if (w.length < 3) return;
+    if (w.length > 14) return;
+    obj[w] = true;
 });
 let optimized = []
 for (key in obj) {
