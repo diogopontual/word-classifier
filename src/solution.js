@@ -1,4 +1,4 @@
-const n = ['jq', 'jx', 'jz', 'qj', 'qx', 'qy', 'qz', 'q\'', 'vj', 'vq', 'xj', 'zx', '\'j', '\'q', '\'x', '\'z'];
+const n = /jq|jx|jz|qj|qx|qy|qz|q\'|vj|vq|xj|zx|\'j|\'q|\'x|\'z/, p = /^(ir|il|dis|mid|mis|anti|in|un)/;
 let bloom;
 module.exports = {
 	init: b => {
@@ -11,13 +11,9 @@ module.exports = {
 		bloom = new BloomFilter(str);
 	},
 	test: w => {
-		w = w.toLowerCase();
-		w = w.replace(/'s$/, '').replace(/^ir/, '').replace(/^il/, '').replace(/^dis/, '').replace(/^mid/, '').replace(/^mis/, '').replace(/^anti/, '').replace(/^in/, '').replace(/^un/, '');
-		w = stemmer(w);
+		w = stemmer(w.toLowerCase().replace(/'s$/, '').replace(p,''));
 		if (w.length > 14) return;
-		for (let i = 0; i < n.length; i++) {
-			if (w.indexOf(n[i]) >= 0) return false;
-		}
+		if(n.test(w)) return;
 		return bloom.test(w);
 	}
 };

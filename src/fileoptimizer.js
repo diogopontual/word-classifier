@@ -7,14 +7,14 @@ let outputFileName = '../optimizedWords.txt';
 const chars = 'abcdefghijklmnopqrstuvwxyz';
 const consonants = 'bcdfghjklmnpqrstvwxyz';
 const vowels = 'aeiou';
-
+const p = /^(ir|il|dis|mid|mis|anti|in|un)/;
 let consumed = 0, produced = 0;
 data = fs.readFileSync(fileName, 'utf8');
 let arr = data.split('\n');
 let obj = {};
 arr.forEach(w => {
     w = w.toLowerCase();
-    w = w.replace(/'s$/, '').replace(/^ir/, '').replace(/^il/, '').replace(/^dis/, '').replace(/^mid/, '').replace(/^mis/, '').replace(/^anti/, '').replace(/^in/, '').replace(/^un/, '')
+    w = w.replace(/'s$/, '').replace(p, '');
     w = stemmer(w);
     if (w.length < 3) return;
     if (w.length > 14) return;
