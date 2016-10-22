@@ -1,6 +1,5 @@
 const BloomFilter = require('./bloomfilter');
-const Apertator = require('./apertator');
-var bloom = new BloomFilter(8 * 72000);
+var bloom = new BloomFilter(8 * process.argv[2]);
 const fs = require('fs');
 fs.readFile('../optimized.txt', "utf8", function (err, data) {
     if (err) throw err;
@@ -14,7 +13,5 @@ fs.readFile('../optimized.txt', "utf8", function (err, data) {
         }
         word += l;
     }
-    let str = bloom.toString();
-    fs.writeFileSync('./data.txt', bloom.toString(), 'ascii');
-    fs.writeFileSync('./data.dat', bloom.stringify(), 'binary');
+    fs.writeFileSync('./data', Buffer.from(bloom.stringify()).toString('binary'), 'binary');
 });

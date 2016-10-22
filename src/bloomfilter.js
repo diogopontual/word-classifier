@@ -52,8 +52,8 @@ class BloomFilter {
                 word = '';
             }
         }
-        let b = Buffer.from(arr);
-        return b.toString('binary');
+        // let b = Buffer.from(arr);
+        return arr;
     }
 }
 module.exports = BloomFilter;
