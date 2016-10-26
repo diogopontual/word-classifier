@@ -35,6 +35,7 @@ class BitSet {
     }
     toString() {
         let r = '';
+        let z = 0, o = 0;
         for (let i = 0; i < this.size; i++) {
             r += this.get(i) ? 1 : 0;
         }
