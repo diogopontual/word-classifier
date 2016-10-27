@@ -2,7 +2,7 @@ const BitSet = require('./bitset');
 
 const hashs = {
     djb2: function (input) {
-        let r =50907;
+        let r=2010;
         // let r = parseInt(process.env.WC_SEED ? process.env.WC_SEED : 5381);
         for (let i = 0; i < input.length; i++) {
             r = ((r << 5) + r) + input.charCodeAt(i);
