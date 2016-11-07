@@ -1,55 +1,32 @@
-const BitSet = require('./bitset');
-
-const hashs = {
-    djb2: function (input) {
-        let r=2010;
-        // let r = parseInt(process.env.WC_SEED ? process.env.WC_SEED : 5381);
-        for (let i = 0; i < input.length; i++) {
-            r = ((r << 5) + r) + input.charCodeAt(i);
-        }
-        return Math.abs(r);
+const hash = function (w) {
+    let r = 2010;
+    for (let i = 0; i < w.length; i++) {
+        r = ((r << 5) + r) + w.charCodeAt(i);
     }
-};
-class BloomFilter {
-    constructor(size) {
-        this.size = size;
-        this.bitset = new BitSet(size);
-    }
-    add(value) {
-        let h = hashs.djb2(value);
-        this.bitset.set(h % this.size, true);
-    }
-    test(value) {
-        let h = hashs.djb2(value);
-        return this.bitset.get(h % this.size);
-    }
-    hash(value) {
-        var hash = 0, i, chr, len;
-        if (this.length === 0) return hash;
-        for (i = 0, len = this.length; i < len; i++) {
-            chr = this.charCodeAt(i);
-            hash = ((hash << 5) - hash) + chr;
-            hash |= 0; // Convert to 32bit integer
-        }
-        return hash;
-    };
-    toString() {
-        return this.bitset.toString();
-    };
-    stringify() {
-        let input = this.toString();
-        let word = '', arr = [];
-        for (let i = 0; i < input.length; i++) {
-            word += input[i];
-            if (word.length == 8) {
-                let l = Number.parseInt(word, 2);
-                arr.push(l);
-                word = '';
-            }
-        }
-        // let b = Buffer.from(arr);
-        return arr;
-    }
+    return Math.abs(r);
 }
-module.exports = BloomFilter;
-let bf = new BloomFilter(3000000);
+const bloomFilter = function () {
+    let retVal = Object.create(bloomFilterProto);
+    if (typeof arguments[0] === 'number') {
+        retVal.size = arguments[0];
+        retVal.arr = new Uint8Array(retVal.size / 8);
+    } else {
+        console.log(arguments[0].length);
+        retVal.size = arguments[0].length;
+        retVal.arr = arguments[0];
+    }
+
+    return retVal;
+}
+const bloomFilterProto = {
+    add: function (w) {
+        let bit = (hash(w) % this.size), baite = Math.trunc(bit / 8);
+        this.arr[baite] |= 1 << (bit % 8);
+
+    },
+    test: function (w) {
+        let bit = (hash(w) % this.size), baite = Math.trunc(bit / 8);
+        return (this.arr[baite] & (1 << (bit % 8))) > 0
+    },
+};
+module.exports = bloomFilter;
