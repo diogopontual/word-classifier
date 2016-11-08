@@ -1,5 +1,5 @@
 const fs = require('fs');
-const fileData = fs.readFileSync('../words.txt', 'ascii');
+const fileData = fs.readFileSync('../optimized.txt', 'ascii');
 const wordsArr = fileData.split('\n');
 const wordsSet = new Set(wordsArr);
 const suffixLength = parseInt(process.argv[2]);
@@ -19,7 +19,7 @@ wordsArr.forEach(word => {
 });
 const prefixArr = [];
 for (let obj in prefixes) {
-    if (prefixes[obj].count > 20)
+    if (prefixes[obj].count > 500)
         prefixArr.push(prefixes[obj]);
 }
 

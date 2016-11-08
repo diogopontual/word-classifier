@@ -19,7 +19,7 @@ wordsArr.forEach(word => {
 });
 const prefixArr = [];
 for (let obj in prefixes) {
-    if (prefixes[obj].count > 50)
+    if (prefixes[obj].count > 200)
         prefixArr.push(prefixes[obj]);
 }
 

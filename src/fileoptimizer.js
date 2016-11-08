@@ -6,16 +6,16 @@ let outputFileName = '../optimizedWords.txt';
 const chars = 'abcdefghijklmnopqrstuvwxyz';
 const consonants = 'bcdfghjklmnpqrstvwxyz';
 const vowels = 'aeiou';
-const f=/^(non|ir|il|dis|mis|un)/;
-const p=/^(straight|counter|quarter|feather|weather|thunder|spectro|magneto|finger|candle|double|bitter|breast|cheese|letter|yellow|bridge|school|master|wonder|middle|immuno|silver|pseudo|street|butter|needle|summer|spring|ground|copper|thermo|after|stone|snake|birth|horse|space|honey|under|goose|flood|ultra|watch|bread|river|field|night|house|amino|match|rough|broad|turbo|thorn|white|black|water|blind|super|thumb|chemo|cross|coach|brick|supra|break|blood|paper|earth|radio|photo|flash|sound|merri|green|train|brush|video|multi|ferro|brain|waste|sheep|motor|track|grass|sword|short|sweet|quick|ethno|pluri|table|copy|body|fire|tool|wire|half|type|kilo|back|door|over|play|head|lady|gate|blue|semi|life|road|hair|deer|nose|mail|down|moon|foot|ring|shoe|book|fore|duck|wing|grey|frog|iron|high|boat|gray|bone|echo|hang|dead|kick|work|lime|nano|snow|rain|rail|dust|ship|push|sero|news|song|keel|wine|soap|neck|wood|stop|bird|rheo|milk|tear|fine|seed|muck|non|out|fly|day|eye|sky|fox|air|ice|oil|oak|lay|ink|ovo|up)/;
+const f=/^(anti|non|ir|il|dis|mis|un)/;
+const p=/^(counter|pseudo|thermo|after|under|ultra|house|white|black|water|super|cross|radio|photo|green|multi|fire|back|over|head|blue|semi|down|foot|fore|wood|anti|cyto|post|free|non|out|air|bio|mis|up|un)/;
 let consumed = 0, produced = 0;
 data = fs.readFileSync(fileName, 'utf8');
 let arr = data.split('\n');
 let obj = {};
-arr.forEach(w => {
+arr.forEach(w =>{
     w = stemmer(w.toLowerCase().replace(/'s$/, '').replace(f,'').replace(p,''));
     if (w.length < 3) return;
-    if (w.length >= 13) return;
+    if (w.length > 12) return;
     obj[w] = true;
 });
 let optimized = []
