@@ -16,6 +16,7 @@ arr.forEach(w =>{
     w = stemmer(w.toLowerCase().replace(/'s$/, '').replace(f,'').replace(p,''));
     if (w.length < 3) return;
     if (w.length > 12) return;
+    if(w.indexOf("'") >= 0) return;
     obj[w] = true;
 });
 let optimized = []

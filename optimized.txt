@@ -1,4 +1,3 @@
-a'asia
 aaa
 aaaa
 aaaaaa
@@ -6089,8 +6088,6 @@ bagram
 bagritski
 baguio
 bagwel
-baha'i
-baha'ullah
 bahadur
 bahai
 bahaism
@@ -6102,7 +6099,6 @@ bahamanian
 bahamian
 bahaullah
 bahawalpur
-bahc'a
 bahcaesm
 bahcist
 bahcullch
@@ -11647,7 +11643,6 @@ canyon
 canyonvil
 caodaism
 caodaist
-cap'n
 capablanca
 capac
 capaneu
@@ -12827,13 +12822,9 @@ ceylones
 ceyx
 cezann
 cezannesqu
-ch'an
-ch'in
-ch'ing
 chb
 che
 chm
-cha'ah
 chabich
 chabli
 chabot
@@ -16688,22 +16679,6 @@ czerni
 czestochowa
 czstochowa
 czur
-d'aeth
-d'ambois
-d'amour
-d'andr
-d'annunzio
-d'arci
-d'arrest
-d'artagnan
-d'attoma
-d'aven
-d'ibervil
-d'ignazio
-d'inzeo
-d'oria
-d'urfei
-d'ewart
 dab
 dac
 dacc
@@ -18068,7 +18043,6 @@ depu
 depui
 dequeen
 der
-der'a
 deragon
 derain
 derayn
@@ -24471,8 +24445,6 @@ gha
 ghq
 ghr
 ghz
-gi'd
-gi'e
 gid
 gif
 gigo
@@ -25202,7 +25174,6 @@ gde
 gdel
 gdn
 gdynia
-ge'ez
 gev
 geadephaga
 geaghan
@@ -28004,7 +27975,6 @@ hallopidida
 hallopu
 hallouf
 hallowdai
-hallowe'en
 halloween
 hallowel
 hallowma
@@ -30975,10 +30945,6 @@ hystricida
 hystricina
 hystrix
 hyundai
-i'd
-i'll
-i'm
-i'v
 iaa
 iab
 iad
@@ -33672,8 +33638,6 @@ kktp
 klip
 kloc
 knp
-ko'd
-ko'e
 kowc
 kpno
 kpo
@@ -35038,7 +35002,6 @@ kinhwa
 kinipetu
 kinkaid
 kinko
-kinko'
 kinloch
 kinmundi
 kinna
@@ -36165,18 +36128,6 @@ kyurin
 kyurinish
 kyushu
 kyzyl
-l'allegro
-l'amour
-l'aquila
-l'avar
-l'enfant
-l'etrang
-l'hospit
-l'immoralist
-l'oreal
-l'otag
-l'ouvertur
-l'vov
 lab
 lac
 lacw
@@ -36753,7 +36704,6 @@ landrum
 landsat
 landseer
 landshut
-landsm'al
 landsmaal
 landsmal
 landsman
@@ -37907,7 +37857,6 @@ leverri
 levesqu
 levei
 levi
-levi'
 leviathan
 levin
 levina
@@ -39594,9 +39543,6 @@ lyubertsi
 lyublin
 lyudmila
 lzen
-m'ba
-m'taggart
-m'sieur
 maa
 maag
 maap
@@ -42032,7 +41978,6 @@ mcdermitt
 mcdermott
 mcdiarmid
 mcdonald
-mcdonald'
 mcdonnel
 mcdonough
 mcdougal
@@ -44561,7 +44506,6 @@ mster
 msterberg
 mtbaldi
 mtwara
-mu'min
 muawiya
 mubarak
 mucker
@@ -45035,7 +44979,6 @@ myzostoma
 myzostomata
 myzostomida
 mzi
-n'djamena
 naa
 naacp
 naafi
@@ -45775,7 +45718,6 @@ ndjamena
 ndola
 ndongo
 ndrangheta
-ne'erdai
 neaera
 neafu
 neagh
@@ -46971,7 +46913,6 @@ nufud
 nugent
 nuggerath
 nugumiut
-nuku'alofa
 nukualofa
 nukuhivan
 nuku
@@ -47084,45 +47025,6 @@ nyseid
 nyssa
 nyssacea
 nyx
-o'boyl
-o'brien
-o'callaghan
-o'carrol
-o'casei
-o'connel
-o'conn
-o'connor
-o'del
-o'doneven
-o'donnel
-o'donoghu
-o'donovan
-o'driscol
-o'dwyer
-o'fallon
-o'faolain
-o'faolcin
-o'fiaich
-o'flaherti
-o'gowan
-o'gradi
-o'hara
-o'har
-o'higgin
-o'keeff
-o'kellei
-o'kelli
-o'leari
-o'mahoni
-o'mallei
-o'meara
-o'neil
-o'reilli
-o'rourk
-o'shea
-o'she
-o'sullivan
-o'tool
 oaci
 oak
 oao
@@ -47185,8 +47087,6 @@ oicel
 oir
 oit
 ojt
-ok'd
-ok'
 olg
 olit
 olla
@@ -48834,7 +48734,6 @@ pnb
 pnp
 pnpn
 pndb
-po'd
 poa
 pob
 pobox
@@ -52788,7 +52687,6 @@ prozac
 pru
 pruchno
 prud
-prud'hon
 pruden
 prudenc
 prudenti
@@ -53495,7 +53393,6 @@ quogu
 quonset
 quoratean
 quorn
-qur'an
 quran
 qurti
 qutb
@@ -57002,7 +56899,6 @@ samuelson
 samul
 samydacea
 san
-san'a
 sanaa
 sanalda
 sanballat
@@ -58828,7 +58724,6 @@ sharet
 sharez
 shargel
 shari
-shari'a
 sharia
 shariat
 sharif
@@ -59067,7 +58962,6 @@ shewchuk
 shewmak
 sheya
 sheyenn
-shi'it
 shia
 shiah
 shiatsu
@@ -62197,7 +62091,6 @@ szombath
 szomorodni
 szymanowski
 szymborska
-t'ang
 tab
 tac
 tacan
@@ -62318,7 +62211,6 @@ tnn
 tnop
 tnpc
 tnt
-to'd
 toc
 tod
 toefl
@@ -62393,7 +62285,6 @@ twm
 twt
 twx
 txid
-ta'izz
 taal
 taalbond
 taam
@@ -68453,7 +68344,6 @@ wendish
 wendolyn
 wendov
 wendt
-wendy'
 wendy
 wenger
 wengert
@@ -69457,7 +69347,6 @@ xerx
 xever
 xhosa
 xhosan
-xi'an
 xiamen
 xian
 xiaop
@@ -70522,7 +70411,6 @@ zsazsa
 zsigmondi
 zsolwai
 ztopek
-zu'lkadah
 zubird
 zubkoff
 zuccari
@@ -70616,8 +70504,6 @@ zythia
 zyuganov
 zyzomi
 zyzzogeton
-a'bodi
-a'th
 aaerial
 aah
 aal
@@ -73879,7 +73765,6 @@ aimfulli
 aimless
 aimlessli
 aimworthi
-ain't
 aina
 ainaleh
 aine
@@ -74076,7 +73961,6 @@ akuammin
 akul
 akund
 akvavit
-akwa'ala
 alaap
 alabamid
 alabamin
@@ -74724,9 +74608,6 @@ alkylogen
 alkylol
 alkyloxi
 alkyn
-all'antica
-all'italiana
-all'ottava
 allabuta
 allactit
 allaeanthu
@@ -75812,7 +75693,6 @@ ammotherapi
 ammotragu
 ammu
 ammunit
-amn't
 amnemon
 amnesia
 amnesiac
@@ -76234,8 +76114,6 @@ amyroot
 amyxia
 amyxorrhoea
 amzel
-an'a
-an't
 anabantid
 anabaptis
 anabasin
@@ -79007,7 +78885,6 @@ anxiolyt
 anxiou
 anxious
 anybodi
-anybody'd
 anybodyd
 anyhow
 anymor
@@ -79916,7 +79793,6 @@ aquocarbon
 aquocellol
 aquos
 aquot
-ar'n't
 araba
 araban
 arabana
@@ -80514,7 +80390,6 @@ areg
 aregen
 areic
 areito
-aren't
 arenac
 arenari
 arendalit
@@ -83566,7 +83441,6 @@ azyg
 azym
 azymia
 azymit
-b'hoi
 baahl
 baar
 baas
@@ -85579,7 +85453,6 @@ bawn
 bawneen
 bawr
 bawrel
-baws'nt
 bawsint
 bawsunt
 bawti
@@ -87545,7 +87418,6 @@ betorn
 betoss
 betowel
 betow
-betra'i
 betrac
 betrail
 betrais
@@ -89759,8 +89631,6 @@ blusteringli
 blustrou
 blutwurst
 blype
-bo's'n
-bo'sun
 boagan
 boanergean
 boann
@@ -90675,7 +90545,6 @@ borti
 borwort
 boryl
 borzoi
-bos'n
 bosbok
 boscag
 boschbok
@@ -91138,7 +91007,6 @@ bozzetti
 bozzetto
 bpm
 bpt
-br'er
 braaivlei
 braaivleis
 braata
@@ -93708,7 +93576,6 @@ byword
 bywork
 byzant
 cdna
-ca'canni
 caam
 caama
 caapeba
@@ -94840,7 +94707,6 @@ camstrari
 camun
 camus
 camwood
-can't
 canaba
 canachit
 canacua
@@ -106568,10 +106434,8 @@ coul
 coula
 coulag
 could
-could'v
 couldest
 couldn
-couldn't
 couldna
 couldnt
 couldron
@@ -107140,7 +107004,6 @@ cowshot
 cowshut
 cowskin
 cowslip
-cowslip'd
 cowson
 cowsuck
 cowtail
@@ -110133,17 +109996,6 @@ czarowitch
 czarowitz
 czarship
 czigani
-d'albert
-d'alembert
-d'arblai
-d'arezzo
-d'esta
-d'holbach
-d'indi
-d'accord
-d'art
-d'etat
-d'oeuvr
 datp
 dbv
 dbw
@@ -110599,7 +110451,6 @@ dareal
 daredevil
 daredevilri
 daredeviltri
-daren't
 darer
 daresai
 darg
@@ -110693,11 +110544,9 @@ dashplat
 dashpot
 dasht
 dashwheel
-dasn't
 dasnt
 dassent
 dassi
-dassn't
 dast
 dastard
 dastardi
@@ -114386,7 +114235,6 @@ didjeridoo
 didl
 didler
 didn
-didn't
 didna
 didnt
 didodecahedr
@@ -116645,7 +116493,6 @@ doen
 doer
 doeskin
 doesn
-doesn't
 doesnt
 doest
 doeth
@@ -116655,7 +116502,6 @@ dof
 doffer
 doftberri
 dofunni
-dog'sban
 dogal
 dogana
 dogaressa
@@ -116939,7 +116785,6 @@ dompt
 dompteus
 domu
 domi
-don't
 donabl
 donaciform
 donack
@@ -119148,8 +118993,6 @@ dzeron
 dzho
 dziggetai
 dzo
-e'en
-e'er
 ebai
 ebook
 emus
@@ -122453,7 +122296,6 @@ entozoarian
 entozoolog
 entozoon
 entr
-entr'act
 entract
 entrada
 entra
@@ -125916,7 +125758,6 @@ ezan
 ezba
 ezo
 ezod
-fa'ard
 faad
 faailk
 fabac
@@ -126737,7 +126578,6 @@ fatuou
 fatuous
 fatuu
 fatwa
-fatwa'd
 fatwah
 fatwar
 fatwood
@@ -129678,8 +129518,6 @@ flywort
 fmt
 fname
 fnese
-fo'c's'l
-fo'c'sl
 foal
 foalfoot
 foalhood
@@ -131057,7 +130895,6 @@ tier
 tiest
 wheelingli
 wheeling
-z'd
 zabl
 zer
 zingli
@@ -132267,7 +132104,6 @@ fynbos
 fyrd
 fyrdung
 fytt
-g'dai
 gaatch
 gabardin
 gabari
@@ -138241,7 +138077,6 @@ gutwis
 gutwort
 gutzer
 guv
-guv'nor
 guvacin
 guvacolin
 guvnor
@@ -138499,11 +138334,6 @@ gyse
 gyte
 gytrash
 gyttja
-h'm
-ha'it
-ha'nt
-ha'p'orth
-ha'penni
 haab
 haaf
 haak
@@ -138627,7 +138457,6 @@ hadj
 hadje
 hadji
 hadland
-hadn't
 hadnt
 hadrom
 hadromycosi
@@ -138854,7 +138683,6 @@ hailstorm
 hailwe
 haimish
 haimsucken
-hain't
 hainberri
 hainch
 haint
@@ -139091,7 +138919,6 @@ halm
 halmalil
 halmawis
 halo
-halo'd
 halobact
 halobacteria
 halobiont
@@ -139263,7 +139090,6 @@ hamulu
 hamu
 hamza
 hamzah
-han't
 hanahil
 hanap
 hanast
@@ -139816,7 +139642,6 @@ haskwort
 haski
 haslock
 hasn
-hasn't
 hasnt
 haspicol
 haspl
@@ -139990,7 +139815,6 @@ have
 haveabl
 haveag
 haveless
-haven't
 havenag
 havenership
 havenet
@@ -140116,8 +139940,6 @@ hdbk
 hdkf
 hdqr
 hdwe
-he'd
-he'll
 counter
 foremost
 kerchief
@@ -141292,7 +141114,6 @@ heptoxid
 heptyl
 heptylen
 heptyn
-her'n
 heracleid
 heraldess
 heraldis
@@ -142389,7 +142210,6 @@ hirtel
 hirudinean
 hirudinoid
 hirundin
-his'n
 hish
 hisingerit
 hisi
@@ -143886,8 +143706,6 @@ hoveringli
 hoverli
 hoverport
 hovertrain
-how'd
-how'r
 howadji
 howardit
 howb
@@ -143895,7 +143713,6 @@ howbeit
 howdah
 howder
 howdi
-howe'
 howev
 howf
 howff
@@ -145959,7 +145776,6 @@ hyte
 hyth
 hythergraph
 hyzon
-i'faith
 ipad
 iphon
 ipod
@@ -146192,7 +146008,6 @@ idant
 idcu
 iddat
 iddhi
-idea'd
 ideagen
 ideaist
 idealess
@@ -147217,7 +147032,6 @@ imshi
 imson
 imuran
 imvia
-in't
 inabl
 inabord
 inabstin
@@ -151021,7 +150835,6 @@ ismat
 ismatic
 ismdom
 ismi
-isn't
 isnad
 isnt
 isoabnorm
@@ -151411,8 +151224,6 @@ isuret
 isuretin
 isuroid
 isz
-it'd
-it'll
 itabirit
 itac
 itacist
@@ -151519,9 +151330,6 @@ iztl
 izvozchik
 izzard
 izzat
-j'accus
-j'adoub
-j'ouvert
 jaap
 jab
 jabalina
@@ -152173,7 +151981,6 @@ jewelri
 jewelsmith
 jewelwe
 jewfish
-jews'harp
 jezail
 jezekit
 jeziah
@@ -152925,7 +152732,6 @@ juxtaspin
 juxtatrop
 jymold
 jyngin
-k'ri
 kci
 kmc
 koe
@@ -155401,11 +155207,6 @@ kyschtymit
 kyth
 kytoon
 kyu
-l'addit
-l'chaim
-l'envoi
-l'oeil
-l'tre
 laa
 laang
 laari
@@ -159820,7 +159621,6 @@ lorrel
 lorrik
 lorryload
 lorum
-los't
 losabl
 losang
 losel
@@ -160660,7 +160460,6 @@ lytta
 lyxos
 mgal
 mrna
-ma'am
 maad
 maam
 maamsel
@@ -163153,7 +162952,6 @@ mayhap
 mayhappen
 mayhaw
 mayhem
-mayn't
 maynt
 mayonnais
 mayoralti
@@ -165959,7 +165757,6 @@ migal
 migg
 miggl
 might
-might'v
 mightest
 mightfulli
 mightier
@@ -165968,7 +165765,6 @@ mightili
 mighti
 mightless
 mightli
-mightn't
 mightnt
 mightst
 mightyheart
@@ -168873,7 +168669,6 @@ mtge
 mtier
 mtn
 mtscmd
-mu'adhdhin
 muang
 muazzin
 mubarat
@@ -169721,7 +169516,6 @@ mussit
 mussuck
 mussuk
 mussurana
-must'v
 mustachi
 mustachio
 mustafina
@@ -169743,7 +169537,6 @@ musti
 mustiest
 mustifi
 mustili
-mustn't
 mustnt
 mustul
 musume
@@ -170412,9 +170205,6 @@ myzostomid
 myzostomidan
 mzee
 mzungu
-n'gana
-n'import
-n't
 nci
 naan
 naartj
@@ -170886,7 +170676,6 @@ nasoturbin
 nasrol
 nassellarian
 nassolog
-nasta'liq
 nastalik
 nastaliq
 nastic
@@ -171081,7 +170870,6 @@ nazdrowi
 nazeranna
 nazim
 ndoderm
-ne'er
 neaf
 neaff
 neak
@@ -171298,7 +171086,6 @@ needliest
 needli
 needment
 needn
-needn't
 neednt
 needsli
 needsom
@@ -172662,7 +172449,6 @@ noblei
 noblifi
 nobli
 nobodi
-nobody'd
 nobodyd
 nobody
 nobut
@@ -173922,8 +173708,6 @@ nopalri
 nope
 nopinen
 noplac
-nor'east
-nor'west
 noradrenalin
 noradrenerg
 norard
@@ -173965,7 +173749,6 @@ norsel
 nortelri
 nortena
 norteno
-north'ard
 northbound
 norther
 northerli
@@ -174743,9 +174526,6 @@ nystagmus
 nystatin
 nytril
 nyxi
-o'clock
-o'er
-o'ertop
 oad
 oadal
 oaf
@@ -175650,7 +175430,6 @@ ogalala
 ogdoad
 ogdoa
 oge
-ogee'd
 ogenesi
 ogenet
 ogganit
@@ -177929,7 +177708,6 @@ oughli
 ought
 oughtl
 oughtlin
-oughtn't
 oughtnt
 ougli
 ouguiya
@@ -177956,7 +177734,6 @@ ouph
 ouphish
 ouphor
 ouphyt
-our'n
 ourali
 ourang
 ouranophobia
@@ -178984,7 +178761,6 @@ ozophen
 ozostomia
 ozothamnu
 ozotyp
-pa'anga
 paal
 paaneleinrg
 paaraphimosi
@@ -182661,7 +182437,6 @@ penmak
 penmanship
 penmast
 penmen
-penn'orth
 pennac
 pennag
 pennam
@@ -188019,7 +187794,6 @@ pneumotrop
 pneumotyphu
 pnigophobia
 pnxt
-po'chais
 poaceou
 poachabl
 poachard
@@ -196093,7 +195867,6 @@ pygostyl
 pyin
 pyinma
 pyjama
-pyjama'd
 pyjamas
 pyke
 pyknatom
@@ -199067,7 +198840,6 @@ rebusi
 rebut
 rebutton
 rebui
-rec'd
 recabl
 recad
 recado
@@ -204890,8 +204662,6 @@ ryper
 rypophobia
 rypticu
 rytidosi
-s'elp
-s'help
 srna
 saanc
 sabadilla
@@ -205647,7 +205417,6 @@ samfoo
 samfu
 samgha
 samh
-samh'in
 samiel
 samier
 samiest
@@ -207254,7 +207023,6 @@ schoolkid
 schoolless
 schoollik
 schoolma
-schoolma'am
 schoolmaam
 schoolmaid
 schoolmarm
@@ -208398,7 +208166,6 @@ sdeignfulli
 sdein
 sdrucciola
 sdump
-se'nnight
 seabag
 seabank
 seabeach
@@ -208604,7 +208371,6 @@ seborrhoea
 seborrho
 sebum
 sebundi
-sec'i
 secabl
 secalin
 secalos
@@ -210066,7 +209832,6 @@ sgd
 sgraffiato
 sgraffiti
 sgraffito
-sha'ban
 shaatnez
 shab
 shabandar
@@ -210289,7 +210054,6 @@ shamroot
 shamsheer
 shamshir
 shamus
-shan't
 shanacha
 shanachi
 shanachu
@@ -210451,9 +210215,6 @@ shaykh
 shazam
 shchi
 she
-she'd
-she'll
-she'ol
 shead
 sheaf
 sheafag
@@ -211278,11 +211039,9 @@ shotti
 shou
 shough
 should
-should'v
 shoulderett
 shouldest
 shouldn
-shouldn't
 shouldna
 shouldnt
 shouldst
@@ -212057,7 +211816,6 @@ sillyish
 sillyism
 sillyton
 silo
-silo'd
 siloist
 siloxan
 silphia
@@ -214378,7 +214136,6 @@ snight
 sniglet
 snip
 snipe
-snipe'sbil
 snipebil
 snipefish
 snipelik
@@ -215175,7 +214932,6 @@ sombrous
 somdel
 somdiel
 somebodi
-somebody'l
 somebodyl
 somedai
 somed
@@ -215183,7 +214939,6 @@ somedel
 someg
 somehow
 someon
-someone'l
 someonel
 somepart
 someplac
@@ -215555,8 +215310,6 @@ sottish
 sottishli
 sottisi
 sotwe
-sou'east
-sou'west
 souagga
 souamosa
 souamula
@@ -215709,7 +215462,6 @@ souteneur
 soutenu
 souterli
 souterrain
-south'ard
 southbound
 souther
 southerland
@@ -220724,7 +220476,6 @@ stunkard
 stunner
 stunningli
 stunpol
-stuns'l
 stunsail
 stunsl
 stuntedli
@@ -224818,9 +224569,7 @@ syzygium
 szaibelyit
 szlachta
 szopelka
-t'other
 trna
-ta'en
 taa
 taar
 taata
@@ -225402,7 +225151,6 @@ tallowwe
 tallowwood
 tallwood
 tallyho
-tallyho'd
 tallyman
 tallymanship
 tallymen
@@ -226896,7 +226644,6 @@ teliosoru
 teliospor
 teliostag
 telium
-tell'd
 tellach
 tellar
 telle
@@ -228051,8 +227798,6 @@ tharfcak
 tharginyah
 tharm
 that
-that'd
-that'll
 thatawai
 thatchier
 thatchiest
@@ -228342,8 +228087,6 @@ therapsid
 theraput
 therblig
 there
-there'd
-there'l
 thereabout
 thereabov
 thereacross
@@ -228476,10 +228219,6 @@ thewiest
 thewi
 thewless
 thewlik
-they'd
-they'll
-they'r
-they'v
 theyaou
 theyd
 theyll
@@ -228734,7 +228473,6 @@ thirtyish
 thirtypenni
 thirtysometh
 thirtytwomo
-this'll
 thisawai
 thishow
 thislik
@@ -229411,7 +229149,6 @@ tiangu
 tiao
 tiar
 tiara
-tiara'd
 tiaralik
 tiarella
 tibbit
@@ -230253,7 +229990,6 @@ tocophobia
 tocororo
 tocusso
 todai
-today'l
 todayish
 todayl
 todder
@@ -231749,7 +231485,6 @@ tranquillest
 tranquillis
 tranquillo
 tranquilli
-trans'mut
 transact
 transactinid
 transaction
@@ -238025,14 +237760,12 @@ usaron
 usat
 usaunc
 usedli
-usedn't
 usednt
 use
 usefullish
 usehold
 useless
 uselessli
-usen't
 usent
 usernam
 ush
@@ -241405,7 +241138,6 @@ washwomen
 washwork
 wasm
 wasn
-wasn't
 wasnt
 waspen
 wasphood
@@ -241650,10 +241382,6 @@ waywort
 wayzgoos
 wazirship
 wazoo
-we'd
-we'll
-we'r
-we'v
 weakbrain
 weaker
 weakest
@@ -242048,7 +241776,6 @@ werejaguar
 wereleopard
 werelion
 weren
-weren't
 werent
 weretig
 werewal
@@ -242208,15 +241935,10 @@ wharv
 whase
 whasl
 what
-what'd
-what'll
-what'r
-what'v
 whata
 whatabout
 whatchi
 whatd
-whate'
 whaten
 whatev
 whatkin
@@ -242232,7 +241954,6 @@ whatsi
 whatsis
 whatsit
 whatso
-whatsoe'
 whatsoeer
 whatsoev
 whatsomev
@@ -242338,9 +242059,6 @@ whelv
 whemmel
 whemml
 when
-when'd
-when'll
-when'r
 whenabout
 whena
 whenc
@@ -242349,20 +242067,13 @@ whenceforth
 whenceso
 whencesoev
 whencev
-whene'
 wheneer
 whenev
 whenso
-whensoe'
 whensoev
 whensomev
 whenua
 where
-where'd
-where'
-where'l
-where'r
-where'v
 whereabout
 whereaft
 whereagainst
@@ -242387,7 +242098,6 @@ whereout
 whereov
 wherer
 whereso
-wheresoe'
 wheresoev
 wheresomev
 wherethrough
@@ -242689,10 +242399,6 @@ whizzerman
 whizzi
 whizzingli
 whizzl
-who'd
-who'll
-who'r
-who'v
 whoa
 whod
 whodunit
@@ -242798,9 +242504,6 @@ whuther
 whutter
 whuz
 why
-why'd
-why'll
-why'r
 whydah
 whyever
 whyfor
@@ -243022,7 +242725,6 @@ wimpishli
 wimpleless
 wimplelik
 wimpler
-win't
 winar
 winberri
 winbrow
@@ -243611,7 +243313,6 @@ woldlik
 woldsman
 woldi
 woleai
-wolf'smilk
 wolfachit
 wolfban
 wolfberri
@@ -243689,7 +243390,6 @@ wommerala
 womp
 womplit
 womyn
-won't
 wonderberri
 wonderbright
 wondercraft
@@ -244021,10 +243721,8 @@ wouf
 wough
 wouhlech
 would
-would'v
 wouldest
 wouldn
-wouldn't
 wouldnt
 wouldst
 woulf
@@ -244220,7 +243918,6 @@ wro
 wroath
 wrocht
 wroke
-wrong'un
 wrongdo
 wrongdoer
 wronger
@@ -244330,7 +244027,6 @@ wyte
 wyve
 wyver
 wyvern
-x'ing
 xalostockit
 xanax
 xanthalin
@@ -244637,7 +244333,6 @@ xysto
 xystum
 xystu
 xystus
-y'all
 yaba
 yabber
 yabbi
@@ -244869,7 +244564,6 @@ yclept
 ycond
 ydrad
 ydred
-ye's
 yea
 yead
 yeah
@@ -245192,10 +244886,6 @@ yotac
 yote
 yottabyt
 you
-you'd
-you'll
-you'r
-you'v
 youd
 youden
 youdith
@@ -245216,7 +244906,6 @@ younker
 youp
 youpon
 your
-your'n
 yourn
 yourself
 yourselv
